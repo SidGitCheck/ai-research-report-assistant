@@ -238,21 +238,6 @@ python -m src.app.main \
 
 ---
 
-## 🗺️ Roadmap
-
-- [x] Multi-agent orchestration pipeline
-- [x] ChromaDB + SQLite memory layer
-- [x] Multi-provider LLM failover
-- [x] Reviewer self-critique loop
-- [x] Run artifact logging
-- [ ] Streamlit real-time UI with pipeline visualization
-- [ ] Async retrieval for faster research
-- [ ] Advanced reranking (cross-encoder)
-- [ ] Source reliability scoring
-- [ ] LangGraph integration
-- [ ] Agent memory persistence across runs
-
----
 
 ## 💡 Why This Project?
 
