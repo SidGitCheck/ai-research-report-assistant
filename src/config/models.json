@@ -1,0 +1,11 @@
+{
+  "llm": {
+    "default_provider": "ollama",
+    "ollama_models": ["llama3:8b-instruct", "mistral:7b-instruct"],
+    "groq_models": ["llama-3.1-8b-instant", "mixtral-8x7b-32768"]
+  },
+  "embeddings": {
+    "default": "sentence-transformers/all-MiniLM-L6-v2",
+    "alternatives": ["BAAI/bge-small-en-v1.5"]
+  }
+}

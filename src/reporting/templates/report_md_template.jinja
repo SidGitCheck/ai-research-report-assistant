@@ -1,0 +1,14 @@
+# {{ title }}
+
+## Executive Summary
+{{ executive_summary }}
+
+## Methodology
+{{ methodology }}
+
+{{ body_markdown }}
+
+## Sources
+{% for source in sources %}
+- {{ source.title }} — {{ source.url }}
+{% endfor %}
