@@ -45,43 +45,43 @@ Built to demonstrate real AI engineering concepts: **RAG**, **multi-agent orches
 
 ```
                         ┌─────────────────────────────────┐
-                        │         User Input (topic)       │
+                        │         User Input (topic)      │
                         └────────────────┬────────────────┘
                                          │
                               ┌──────────▼──────────┐
-                              │    Planner Agent     │
-                              │  sections • queries  │
-                              │  strategies • budget │
+                              │    Planner Agent    │
+                              │  sections • queries │
+                              │  strategies • budget│
                               └──────────┬──────────┘
                                          │
                               ┌──────────▼──────────┐
-                              │   Research Agent     │
-                              │  search • fetch      │
-                              │  extract • chunk     │
+                              │   Research Agent    │
+                              │  search • fetch     │
+                              │  extract • chunk    │
                               └──────────┬──────────┘
                                          │
                    ┌─────────────────────▼──────────────────────┐
-                   │               Memory Layer                   │
-                   │   ChromaDB (vector embeddings)               │
-                   │   SQLite (sources, metadata, run tracking)   │
+                   │               Memory Layer                 │
+                   │   ChromaDB (vector embeddings)             │
+                   │   SQLite (sources, metadata, run tracking) │
                    └─────────────────────┬──────────────────────┘
                                          │
                               ┌──────────▼──────────┐
-                              │    Writer Agent      │
-                              │  retrieve • ground   │
-                              │  synthesize • cite   │
+                              │    Writer Agent     │
+                              │  retrieve • ground  │
+                              │  synthesize • cite  │
                               └──────────┬──────────┘
                                          │
                               ┌──────────▼──────────┐
-                              │   Reviewer Agent     │
-                              │  coverage • clarity  │
-                              │  citations • repeat  │
+                              │   Reviewer Agent    │
+                              │  coverage • clarity │
+                              │  citations • repeat │
                               └──────────┬──────────┘
                                          │
                               ┌──────────▼──────────┐
-                              │   Report Generator   │
-                              │  final.md • PDF      │
-                              │  run artifacts       │
+                              │   Report Generator  │
+                              │  final.md • PDF     │
+                              │  run artifacts      │
                               └─────────────────────┘
 ```
 
